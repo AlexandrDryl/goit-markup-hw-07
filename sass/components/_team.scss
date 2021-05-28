@@ -23,6 +23,8 @@
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+
+  background-color: var(--main-bg-color);
 }
 
 .team-card__content {

@@ -392,6 +392,7 @@ img {
 .subscribe__title {
   display: inline-block;
   margin-bottom: 20px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
@@ -459,6 +460,7 @@ img {
 
 .folow__title {
   margin-bottom: 20px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;

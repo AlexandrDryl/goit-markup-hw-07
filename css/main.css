@@ -22,7 +22,12 @@ body {
   color: var(--main-text-color);
 }
 
-h1,
+*,
+*::before,
+*::after {
+  outline: 1px solid red;
+}
+
 h2,
 h3,
 h4,
@@ -323,6 +328,7 @@ img {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+  background-color: var(--main-bg-color);
 }
 
 .team-card__content {
@@ -549,6 +555,7 @@ img {
 .subscribe__title {
   display: inline-block;
   margin-bottom: 20px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
@@ -616,6 +623,7 @@ img {
 
 .folow__title {
   margin-bottom: 20px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
